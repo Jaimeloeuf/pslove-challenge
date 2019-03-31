@@ -1,6 +1,7 @@
 # README for Email service
 
 - Email Service is just a basic mail service implementation designed to send emails at the request of other services. This will be used as a down stream service of the Doctor and/or leave service.
+- The Services that are allowed to use this email service should either be pre-defined in the application code or read from a service registry if there is one.
 
 - Using the RESTful HTTP service to service interaction method
     1. Receive a email request.

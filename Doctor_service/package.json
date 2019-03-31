@@ -1,7 +1,7 @@
 {
-  "name": "email-service",
+  "name": "doctor-service",
   "version": "0.0.1",
-  "description": "Email service as down stream service for demo purposes",
+  "description": "Get a doctor",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -16,10 +16,9 @@
   "bugs": {
     "url": "https://github.com/Jaimeloeuf/pslove-challenge/issues"
   },
-  "homepage": "https://github.com/Jaimeloeuf/pslove-challenge#readme",
+  "homepage": "https://github.com/Jaimeloeuf/pslove-challengereadme",
   "dependencies": {
     "express": "^4.16.4",
     "jsonwebtoken": "^8.5.0",
-    "nodemailer": "^5.1.1"
   }
 }
