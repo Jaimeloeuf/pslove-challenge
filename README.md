@@ -9,6 +9,13 @@
 - Leave Service:
     - Upstream service of Email service to notif HR through Email of leave
 
+- Doctor service
+    - Upstream service to send a email to the Doctor to request for MC and consultation.
+
+- EComm Serice
+    - Service that provides real time product recommendations for the patient/user depending on the pain level and or point in the menstrual cycle.
+    - Recommendation engine to be built with data from [data analysis](https://github.com/sanchitmittl/pslove)
+
 Read more about the services in their respective README files in their directories.
 
 ## How to run everything.
